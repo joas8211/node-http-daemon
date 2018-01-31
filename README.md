@@ -23,13 +23,14 @@ Bind new application or get existing. Filter to using vhost and basepath to allo
 
 #### Arguments
 - `app` - Application options
-	| Name 		| Type 		| Attributes 	| Default 	| Description 					|
-	| -----		| -----		| -----------	| --------	| ------------					|
-	| module	| string	| optional		|			| Path to module to bind		|
-	| port		| number	| optional		| 80		| Port to listen				|
-	| host		| string	| optional		| 0.0.0.0	| Host to listen				|
-	| vhost		| string	| optional		|			| vhost to filter requests with	|
-	| basepath	| string	| optional		| /			| Path to filter requests with	|
+
+| Name 		| Type 		| Attributes 	| Default 	| Description 					|
+| -----		| -----		| -----------	| --------	| ------------					|
+| module	| string	| optional		|			| Path to module to bind		|
+| port		| number	| optional		| 80		| Port to listen				|
+| host		| string	| optional		| 0.0.0.0	| Host to listen				|
+| vhost		| string	| optional		|			| vhost to filter requests with	|
+| basepath	| string	| optional		| /			| Path to filter requests with	|
 
 #### Returns
 `Promise.<http.Server>`
