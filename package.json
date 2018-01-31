@@ -1,0 +1,8 @@
+{
+  "name": "node-http-daemon",
+  "version": "0.1.0",
+  "description": "Host multiple independend Node applications at the same time with the same port on the same machine",
+  "main": "index.js",
+  "author": "Jesse Sivonen",
+  "license": "MIT"
+}
